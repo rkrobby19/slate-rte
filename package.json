@@ -1,0 +1,27 @@
+{
+  "name": "slate-rte",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "slate": "^0.94.1",
+    "slate-react": "^0.99.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
