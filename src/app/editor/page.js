@@ -52,6 +52,7 @@ const toggleBlock = (editor, format) => {
       !TEXT_ALIGN_TYPES.includes(format),
     split: true,
   });
+
   let newProperties;
   if (TEXT_ALIGN_TYPES.includes(format)) {
     newProperties = {
